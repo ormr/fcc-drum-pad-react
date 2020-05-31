@@ -1,0 +1,23 @@
+.pad-bank {
+  width: 332px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drum-pad {
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: #808080;
+  box-shadow: black 3px 3px 5px;
+}
+
+.clicked {
+  background-color: #ff993f;
+  box-shadow: none;
+}
